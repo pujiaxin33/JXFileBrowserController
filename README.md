@@ -10,7 +10,7 @@ The debug sandbox browser for sharing.
 
 # Demo preview
 
-- [gif](https://github.com/pujiaxin33/JXFileBrowserController/blob/master/JXFileBrowserController/Gif/FileBrowser.gif)
+[gif](https://github.com/pujiaxin33/JXFileBrowserController/blob/master/JXFileBrowserController/Gif/FileBrowser.gif)
 
 # Features
 
