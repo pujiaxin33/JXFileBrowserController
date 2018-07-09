@@ -8,6 +8,10 @@ The debug sandbox browser for sharing.
 
 我已经给FLEX提交了Issue，增加通过UIActivityViewController进行文件分享的功能，但是还未处理。所以自己就写了一个简单的沙盒文件浏览分享控制器。
 
+# Demo preview
+
+- [gif](https://github.com/pujiaxin33/JXFileBrowserController/blob/master/JXFileBrowserController/Gif/FileBrowser.gif)
+
 # Features
 
 - 查看应用沙盒文件系统；
