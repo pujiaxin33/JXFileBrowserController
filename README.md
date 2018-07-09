@@ -1,5 +1,5 @@
 # JXFileBrowserController
-The debug sandbox browser for sharing.
+The debug sandbox browser for sharing.Written in swift.
 
 # Overview
 在我们日常开发中，会出现许多复杂业务逻辑的bug。很难通过查看代码就能排查掉。尤其是偶现的bug，测试人员偶尔出现，自己调试死活出现不了。
