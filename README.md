@@ -19,9 +19,22 @@ The debug sandbox browser for sharing.Written in swift.
 - 支持图片、GIF、文本、视频、音频、数据库查看；
 - 通过UIActivityViewController进行文件分享；
 
-# Usage
+# 要求
 
-将文件`JXFileBrowserController.swift`拖入工程即可使用
+- iOS 9.0+
+- XCode 10.2.1+
+- Swift 5.0+
+
+# 安装
+
+## CocoaPods
+
+```ruby
+target '<Your Target Name>' do
+    pod 'JXFileBrowserController'
+end
+```
+先执行`pod repo update`，再执行`pod install`
 
 
 
