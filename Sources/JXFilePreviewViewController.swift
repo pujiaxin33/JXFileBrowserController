@@ -67,7 +67,16 @@ class JXFilePreviewViewController: UIViewController, UIScrollViewDelegate {
             previewImageView?.contentMode = .scaleAspectFit
             previewScrollView?.addSubview(previewImageView!)
         }else if ["strings", "plist", "txt", "log", "csv"].contains(fileExtension) {
-            if ["strings", "plist"].contains(fileExtension) {
+            if "plist" == fileExtension {
+                if let data = FileManager.default.contents(atPath: filePath), let keyValues = try? PropertyListSerialization.propertyList(from: data, options: .mutableContainersAndLeaves, format: nil) as? [String:Any] {
+                    let text = keyValues.reduce("") { (result, item) -> String in
+                        return "\(result)\n\(item.key):\(item.value)"
+                    }
+                    initTextView(with: text)
+                }else {
+                    initTextView(with: "该文件没有内容")
+                }
+            }else if "strings" == fileExtension {
                 if let data = FileManager.default.contents(atPath: filePath), let keyValues = try? PropertyListSerialization.propertyList(from: data, options: .mutableContainersAndLeaves, format: nil) as? [String] {
                     let text = keyValues.reduce("") { (result, item) -> String in
                         return "\(result)\n\(item)"

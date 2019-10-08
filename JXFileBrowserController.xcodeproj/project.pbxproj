@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19008A33234C73FA00F56E57 /* JXDatabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A2C234C73F900F56E57 /* JXDatabaseConnector.swift */; };
-		19008A34234C73FA00F56E57 /* ExcelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A2D234C73F900F56E57 /* ExcelView.swift */; };
-		19008A35234C73FA00F56E57 /* JXTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A2E234C73F900F56E57 /* JXTableListViewController.swift */; };
-		19008A36234C73FA00F56E57 /* JXFileBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A2F234C73F900F56E57 /* JXFileBrowserController.swift */; };
-		19008A37234C73FA00F56E57 /* JXTextPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A30234C73F900F56E57 /* JXTextPreviewViewController.swift */; };
-		19008A38234C73FA00F56E57 /* JXFilePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A31234C73F900F56E57 /* JXFilePreviewViewController.swift */; };
-		19008A39234C73FA00F56E57 /* JXTableContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A32234C73F900F56E57 /* JXTableContentViewController.swift */; };
+		19008A4F234C7C6600F56E57 /* JXTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A48234C7C6500F56E57 /* JXTableListViewController.swift */; };
+		19008A50234C7C6600F56E57 /* JXFilePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A49234C7C6500F56E57 /* JXFilePreviewViewController.swift */; };
+		19008A51234C7C6600F56E57 /* JXDatabaseConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A4A234C7C6500F56E57 /* JXDatabaseConnector.swift */; };
+		19008A52234C7C6600F56E57 /* ExcelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A4B234C7C6500F56E57 /* ExcelView.swift */; };
+		19008A53234C7C6600F56E57 /* JXTableContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A4C234C7C6500F56E57 /* JXTableContentViewController.swift */; };
+		19008A54234C7C6600F56E57 /* JXFileBrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A4D234C7C6500F56E57 /* JXFileBrowserController.swift */; };
+		19008A55234C7C6600F56E57 /* JXTextPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19008A4E234C7C6600F56E57 /* JXTextPreviewViewController.swift */; };
 		192AC5AA20EF7749003F478C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AC5A920EF7749003F478C /* AppDelegate.swift */; };
 		192AC5AC20EF7749003F478C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AC5AB20EF7749003F478C /* ViewController.swift */; };
 		192AC5AF20EF7749003F478C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 192AC5AD20EF7749003F478C /* Main.storyboard */; };
@@ -25,13 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		19008A2C234C73F900F56E57 /* JXDatabaseConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXDatabaseConnector.swift; sourceTree = "<group>"; };
-		19008A2D234C73F900F56E57 /* ExcelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelView.swift; sourceTree = "<group>"; };
-		19008A2E234C73F900F56E57 /* JXTableListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTableListViewController.swift; sourceTree = "<group>"; };
-		19008A2F234C73F900F56E57 /* JXFileBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXFileBrowserController.swift; sourceTree = "<group>"; };
-		19008A30234C73F900F56E57 /* JXTextPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTextPreviewViewController.swift; sourceTree = "<group>"; };
-		19008A31234C73F900F56E57 /* JXFilePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXFilePreviewViewController.swift; sourceTree = "<group>"; };
-		19008A32234C73F900F56E57 /* JXTableContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTableContentViewController.swift; sourceTree = "<group>"; };
+		19008A48234C7C6500F56E57 /* JXTableListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTableListViewController.swift; sourceTree = "<group>"; };
+		19008A49234C7C6500F56E57 /* JXFilePreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXFilePreviewViewController.swift; sourceTree = "<group>"; };
+		19008A4A234C7C6500F56E57 /* JXDatabaseConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXDatabaseConnector.swift; sourceTree = "<group>"; };
+		19008A4B234C7C6500F56E57 /* ExcelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcelView.swift; sourceTree = "<group>"; };
+		19008A4C234C7C6500F56E57 /* JXTableContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTableContentViewController.swift; sourceTree = "<group>"; };
+		19008A4D234C7C6500F56E57 /* JXFileBrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXFileBrowserController.swift; sourceTree = "<group>"; };
+		19008A4E234C7C6600F56E57 /* JXTextPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JXTextPreviewViewController.swift; sourceTree = "<group>"; };
 		192AC5A620EF7749003F478C /* JXFileBrowserController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXFileBrowserController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		192AC5A920EF7749003F478C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		192AC5AB20EF7749003F478C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,13 +58,13 @@
 		19008A2B234C73F900F56E57 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				19008A2C234C73F900F56E57 /* JXDatabaseConnector.swift */,
-				19008A2D234C73F900F56E57 /* ExcelView.swift */,
-				19008A2E234C73F900F56E57 /* JXTableListViewController.swift */,
-				19008A2F234C73F900F56E57 /* JXFileBrowserController.swift */,
-				19008A30234C73F900F56E57 /* JXTextPreviewViewController.swift */,
-				19008A31234C73F900F56E57 /* JXFilePreviewViewController.swift */,
-				19008A32234C73F900F56E57 /* JXTableContentViewController.swift */,
+				19008A4B234C7C6500F56E57 /* ExcelView.swift */,
+				19008A4A234C7C6500F56E57 /* JXDatabaseConnector.swift */,
+				19008A4D234C7C6500F56E57 /* JXFileBrowserController.swift */,
+				19008A49234C7C6500F56E57 /* JXFilePreviewViewController.swift */,
+				19008A4C234C7C6500F56E57 /* JXTableContentViewController.swift */,
+				19008A48234C7C6500F56E57 /* JXTableListViewController.swift */,
+				19008A4E234C7C6600F56E57 /* JXTextPreviewViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -184,15 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19008A36234C73FA00F56E57 /* JXFileBrowserController.swift in Sources */,
-				19008A35234C73FA00F56E57 /* JXTableListViewController.swift in Sources */,
 				192AC5AC20EF7749003F478C /* ViewController.swift in Sources */,
-				19008A37234C73FA00F56E57 /* JXTextPreviewViewController.swift in Sources */,
-				19008A33234C73FA00F56E57 /* JXDatabaseConnector.swift in Sources */,
-				19008A38234C73FA00F56E57 /* JXFilePreviewViewController.swift in Sources */,
-				19008A39234C73FA00F56E57 /* JXTableContentViewController.swift in Sources */,
-				19008A34234C73FA00F56E57 /* ExcelView.swift in Sources */,
+				19008A50234C7C6600F56E57 /* JXFilePreviewViewController.swift in Sources */,
+				19008A55234C7C6600F56E57 /* JXTextPreviewViewController.swift in Sources */,
+				19008A54234C7C6600F56E57 /* JXFileBrowserController.swift in Sources */,
+				19008A52234C7C6600F56E57 /* ExcelView.swift in Sources */,
+				19008A51234C7C6600F56E57 /* JXDatabaseConnector.swift in Sources */,
 				192AC5AA20EF7749003F478C /* AppDelegate.swift in Sources */,
+				19008A4F234C7C6600F56E57 /* JXTableListViewController.swift in Sources */,
+				19008A53234C7C6600F56E57 /* JXTableContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
