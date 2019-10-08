@@ -16,16 +16,13 @@ The debug sandbox browser for sharing.Written in swift.
 
 - 查看应用沙盒文件系统；
 - 查看Bundle文件；
+- 支持图片、GIF、文本、视频、音频、数据库查看；
 - 通过UIActivityViewController进行文件分享；
 
 # Usage
 
 将文件`JXFileBrowserController.swift`拖入工程即可使用
 
-# Todo
-
-- 增加手机内文件浏览；
-- 增加文件重命名、删除功能；
 
 
 
